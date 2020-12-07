@@ -6,63 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
+    
+  <!-- Added link to the jQuery Library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script type = "text/javascript" src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <link rel="stylesheet" href="style.css">
 
     <title>Hello, world!</title>
   </head>
   <body>
-    <div class="container">
-        <div class="headLine">
+
+        <div class="headLine col-12">
             Work Day Planner
         </div>
-        <div>
-            <div class="9am">
+        <div class="container-fluid">
+            <div id="9am" class="timeDiv col-12">
                 <div class="hour col-1">9am</div>
-                <textarea class="perEvent col-10"></textarea>
-                <button class="saveBtn col-1 btn"></button>
+                <textarea class="perEvent col-10" value="9"></textarea>
+                <button type="button" class="btn btn-primary saveBtn col-1">Save</button>
             </div>
-            <div class="10am">
+            <div id="10am" class="timeDiv">
                 <div class="hour col-1">10am</div>
-                <textarea class="perEvent col-10"></textarea>
-                <button class="saveBtn col-1 btn"></button>
+                <textarea class="perEvent col-10" value="10"></textarea>
+                <button type="button" class="btn btn-primary saveBtn col-1">Save</button>
             </div>
-            <div class="11am">
+            <div id="11am"  class="timeDiv">
                 <div class="hour col-1">11am</div>
-                <textarea class="perEvent col-10"></textarea>
-                <button class="saveBtn col-1 btn"></button>
+                <textarea class="perEvent col-10" value="11"></textarea>
+                <button type="button" class="btn btn-primary saveBtn col-1">Save</button>
             </div>
-            <div class="12pm">
+            <div id="12am" class="timeDiv">
                 <div class="hour col-1">12pm</div>
-                <textarea class="perEvent col-10"></textarea>
-                <button class="saveBtn col-1 btn"></button>
+                <textarea class="perEvent col-10" value="12"></textarea>
+                <button type="button" class="btn btn-primary saveBtn col-1">Save</button>
             </div>
-            <div class="1pm">
+            <div id="1pm" class="timeDiv">
                 <div class="hour col-1">1pm</div>
-                <textarea class="perEvent col-10"></textarea>
-                <button class="saveBtn col-1 btn"></button>
+                <textarea class="perEvent col-10" value="13"></textarea>
+                <button type="button" class="btn btn-primary saveBtn col-1">Save</button>
             </div>
-            <div class="2pm">
+            <div id="2pm" class="timeDiv">
                 <div class="hour col-1">2pm</div>
-                <textarea class="perEvent col-10"></textarea>
-                <button class="saveBtn col-1 btn"></button>
+                <textarea class="perEvent col-10" value="14"></textarea>
+                <button type="button" class="btn btn-primary saveBtn col-1">Save</button>
             </div>
-            <div class="3pm">
+            <div id="3pm" class="timeDiv">
                 <div class="hour col-1">3pm</div>
-                <textarea class="perEvent col-10"></textarea>
-                <button class="saveBtn col-1 btn"></button>
+                <textarea class="perEvent col-10" value="15"></textarea>
+                <button type="button" class="btn btn-primary saveBtn col-1">Save</button>
             </div>
-            <div class="4pm">
+            <div id="4pm" class="timeDiv">
                 <div class="hour col-1">4pm</div>
-                <textarea class="perEvent col-10"></textarea>
-                <button class="saveBtn col-1 btn"></button>
+                <textarea class="perEvent col-10" value="16"></textarea>
+                <button type="button" class="btn btn-primary saveBtn col-1">Save</button>
             </div>
-            <div class="5pm">
+            <div id="5pm" class="timeDiv">
                 <div class="hour col-1">5pm</div>
-                <textarea class="perEvent col-10"></textarea>
-                <button class="saveBtn col-1 btn"></button>
+                <textarea class="perEvent col-10" value="17"></textarea>
+                <button type="button" class="btn btn-primary saveBtn col-1">Primary</button>
             </div>
         </div>
-    </div>
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -74,6 +82,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
     -->
-    <script  src="scirpt.js"></script>
+
   </body>
 </html>
