@@ -1,24 +1,88 @@
 .timeDiv {
     text-align: center;
+    display: flex;
+    margin: 5px;
 }
 
-  .saveBtn i:hover {
+.hour {
+    text-align: center;
+    vertical-align: middle;
+    height:80px;    
+    margin: auto;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: rgb(174, 199, 247);
+    border-style: solid;
+    border-width: thin;
+    font-size: 20px;
+    line-height: 80px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.saveBtn {
     font-size: 20px;
     transition: all .3s ease-in-out;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
   }
 
-  .perEvent{
+.perEvent{
     white-space: pre-wrap;
     font-size: 20px;
-  }
+}
 
   
-  textarea {
+textarea {
 
     border: none;
     resize: none;
     color: #ffffff;
     border-left: 1px solid #685155;
     padding: 10px;
-  }
+}
+
+.headLine {
+    text-align: center;
+    background-color: rgb(223, 223, 223);
+
+}
+
+=
+
+.legendDiv {
+    text-align: center;
+    margin: auto;
+}
+
+.legend { 
+    list-style: none;
+ }
+
+.legend li { 
+    float: left; margin-right: 10px;
+ }
+
+.legend span {
+     border: 1px solid #ccc; float: left; width: 12px; height: 12px; margin: 2px; 
+}
+
+.legend .awesome { 
+    background-color: #585858; 
+}
+
+.legend .kindaawesome { 
+    background-color: #46ff6e; 
+}
+
+.legend .notawesome {
+     background-color: #ff9090; 
+    }
+
   

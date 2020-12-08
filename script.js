@@ -3,18 +3,29 @@ window.onload = function() {
 
 var saveBtn = document.querySelector(".saveBtn")
 var hour    = document.querySelector(".hour")
+
+
 var blank = []
-
-
 var today = new Date();
 var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
 var currentTime = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
 var hourNum = today.getHours()
-console.log(date)
-console.log(currentTime)
-console.log(today)
-console.log (today.getHours())
-console.log(hourNum)
+var secondsLeft = 1
+    
+document.getElementById("todaysDate").innerHTML = date
+
+function updateTime(){
+    var currTime = new Date()
+    var hours = currTime.getHours()
+    var minutes = currTime.getMinutes()
+    var seconds = currTime.getSeconds()
+    if (minutes < 10){
+        minutes = "0" + minutes
+    }
+    var t_str = (hours) + ":" + minutes + ":" + seconds;
+    document.getElementById('todaysTime').innerHTML = t_str;
+}
+setInterval(updateTime, 100);
 
 
 $('.saveBtn').on("click", function() {
@@ -34,11 +45,11 @@ function alertt() {
         var hourBlock = parseInt($(this).attr("value"))
         console.log(hourBlock)
         if(hourNum > hourBlock){
-            $(this).css("background-color", "grey")
+            $(this).css("background-color", "#585858")
         } else if (hourNum === hourBlock) {
-            $(this).css("background-color", "green")
+            $(this).css("background-color", "#46ff6e")
         } else{
-            $(this).css("background-color", "blue")
+            $(this).css("background-color", "#ff9090")
         }
     })
     
