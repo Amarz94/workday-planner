@@ -23,3 +23,9 @@
 ## Issues resolved
 - Had to rush through this project due to family matters, so its kind of bland in regares to the styling
 - The prior assignment really helped in creating this, so I had little issues with it.
+
+## Link to Site
+https://amarz94.github.io/workday-planner/.
+
+### Contact Info
+- Email: marzullo94@gmail.com
